@@ -44,6 +44,8 @@ body {
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
+    position:relative;
+
 }
 
 .text-container {
@@ -243,7 +245,7 @@ li {
     overflow-y:scroll;
     overflow-x: hidden;
     height:100%;
-    width:30.5%;
+    width:30.5%;   
 }
 
 .p1 {
