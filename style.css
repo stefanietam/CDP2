@@ -316,3 +316,58 @@ ul li::before {
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+
+.flash {
+    display:none;
+    position:fixed;
+    width:30%;
+    right:3vw;
+    bottom:3vw;
+    z-index:100;
+}
+
+#produce {
+        -webkit-filter: drop-shadow(0px 0px 14px rgba(255, 0, 255, 1));
+}
+
+#digest {
+        -webkit-filter: drop-shadow(0px 0px 14px rgba(0, 255, 0, 1));
+}
+
+#consume {
+        -webkit-filter: drop-shadow(0px 0px 14px rgba(255, 97, 0, 1));
+}
+
+
+
+@media screen and (min-width: 1151px) {
+.consumeImagesList, .consumeFiguresList{
+    list-style: decimal;
+    display:grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap:3em;
+    grid-row-gap:.5vw;
+}
+
+    .images {
+     box-shadow: 1px 1px 18px black;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+       
+}
+
+}
+
+@media screen and (min-width: 1px) {
+.consumeImagesList, .consumeFiguresList{
+    list-style: decimal;
+    display:auto;
+}
+    .images {
+    width:100%;
+     box-shadow: 1px 1px 18px black;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+    
+    
+}
+}
+
