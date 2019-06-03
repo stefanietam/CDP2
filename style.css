@@ -240,7 +240,8 @@ li {
 
 #leftContainer {
     position:fixed;
-    overflow:scroll;
+    overflow-y:scroll;
+    overflow-x: hidden;
     height:100%;
     width:30.5%;
 }
